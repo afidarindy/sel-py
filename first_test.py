@@ -1,8 +1,13 @@
+# Before writing these scripts, make sure :
+# 1. To have python installed
+# 2. Download Chromedriver
+# 3. Install selenium with "pip install selenium"
+
 # First Test Scenario
-# Scenario : Searching for Orchid Flower in Google
-# Given I am in Google homepage
-# When I search for "Orchid Flower"
-# Then I should see search result of "Orchid Flower"
+    # Scenario : Searching for Orchid Flower in Google
+    # Given I am in Google homepage
+    # When I search for "Orchid Flower"
+    # Then I should see search result of "Orchid Flower"
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
