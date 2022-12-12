@@ -44,7 +44,7 @@ def test_googling2(driver):
     driver.find_element("name", "q").send_keys('Afida Rindy' + Keys.ENTER)
 
     # check the result with this to get exact string in title
-    # assert 'Orchid Flower' == driver.title
+    # assert 'Afida Rindy' == driver.title
 
     # or this to get the string inside title
     assert 'Afida Rindy' in driver.title
